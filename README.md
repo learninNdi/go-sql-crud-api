@@ -1,5 +1,5 @@
 # SIMPLE CRUD API USING GO-SQL
-A simple program to do Create, Read, Update and Delete `User` data consists of name and age. This program runs on localhost at port 3000. The host and the port depends on environment variables on `.env` file.
+A simple program to do Create, Read, Update and Delete `User` data consists of name and age. This program runs on host and at port depends on environment variables on `.env` file.
 ## CREATE
 To create data, hit route `/people` using `POST` method with a body request consists of JSON:
 ```json
