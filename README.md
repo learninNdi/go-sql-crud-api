@@ -4,8 +4,8 @@ A simple program to do Create, Read, Update and Delete `User` data consists of n
 To create data, hit route `/people` using `POST` method with a body request consists of JSON:
 ```json
 {
-    "name": ...,
-    "age": ...
+    "name": "",
+    "age": 
 }
 ```
 ## READ ALL DATA
@@ -16,14 +16,14 @@ To read a data, hit route `/person/{id}` using `GET` method with a query id.
 To update data, hit route `/person/{id}` using `UPDATE` method with a body request consists of JSON:
 ```json
 {
-    "name": ...,
-    "age": ...
+    "name": "",
+    "age": 
 }
 ```
 ## DELETE
 To delete data, hit route `/person` using `DELETE` method with a body request consists of JSON:
 ```json
 {
-    "id":...
+    "id": ""
 }
 ```
